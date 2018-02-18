@@ -1,0 +1,15 @@
+/**
+ * Created by sanjib on 2/18/18.
+ */
+
+export class Recipe {
+    public name:string;
+    public description:string;
+    public imagePath:string;
+
+    constructor(name:string, description:string, imagePath:string) {
+        this.name = name;
+        this.description = description;
+        this.imagePath = imagePath;
+    }
+}
